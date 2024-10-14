@@ -1,3 +1,5 @@
+@import url("../fonts/fonts.css");
+
 *,
 *::before,
 *::after {
@@ -7,7 +9,10 @@
 body {
   width: 1100px;
   margin: 0 auto;
+  box-sizing: border-box;
   font-family: Raleway, sans-serif;
+
+  --main-font: Raleway;
 }
 
 h1,
@@ -27,8 +32,4 @@ blockquote {
 
 a {
   color: inherit;
-}
-
-img {
-  width: 100%;
 }
