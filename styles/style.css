@@ -74,7 +74,7 @@
   background-size: cover;
 }
 
-.overlay { 
+.overlay {
   position: absolute;
   top: 0;
   right: 0;
@@ -118,7 +118,7 @@
 }
 
 .no-letter-spacing {
-  letter-spacing: 0em; 
+  letter-spacing: 0em;
 }
 
 .cover__description {
