@@ -5,18 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
-    <link rel="fonts" href="fonts/fonts.css">
+    <link rel="fonts" href="./fonts/fonts.css">
     <link rel="stylesheet" href="styles/global.css">
     <link rel="stylesheet" href="styles/style.css"> 
   </head>
   <body>
     
     <header class="header">
-        <ul class="menu">
-          <li><a>главная</a></li>
-          <li><a>посмотреть лоты</a></li>
-          <li><a>об аукционе</a></li>
+      <nav class="menu">  
+        <ul class="links-list">
+          <li class="active_button"><a href="#">главная</a></li>
+          <li><a href="#">посмотреть лоты</a></li>
+          <li><a href="#">об аукционе</a></li>
         </ul>
+      </nav>
         <a><img class="logo" src="images/logo-black.svg" alt="logo-black"/></a>
         <address class="address"> 
           <a href="tel:+99995555555">+9 999 555 5555</a> 
@@ -44,7 +46,7 @@
         <h2 class="lots__heading">ЛОТЫ</h2>
 
         <div class="lots__cards">
-          <div class="lots__cards__item lot-background-one">
+          <div class="lots__cards__item card_type_film">
             <h3 class="lots__cards__item-title">Фильм режиссёра, который бросил киношколу</h3>
             <span class="lots__cards__item-description">
               Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка,
@@ -53,19 +55,19 @@
             <div class="overlay__cards"></div>
           </div>
 
-          <div class="lots__cards__item lot-background-two">
+          <div class="lots__cards__item card_type_book">
             <h3 class="lots__cards__item-title">Книга, где описан один скучный день из жизни рекламного агента</h3>
-            <span class="lots__cards__item-description">
+            <p class="lots__cards__item-description">
               Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с античных времён. И это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса Джойса?
-            </span>
+            </p>
             <div class="overlay__cards"></div>
           </div>
 
-          <div class="lots__cards__item lot-background-three">
+          <div class="lots__cards__item card_type_picture">
             <h3 class="lots__cards__item-title">Картина, которую повторит даже 5-летний сын маминой подруги</h3>
-            <span class="lots__cards__item-description">
+            <p class="lots__cards__item-description">
               Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку. Никаких полей, лесов, котиков... Сколько бы вы на такое поставили, если бы не знали, что это — одна из революционных работ Кандинского?
-            </span>
+            </p>
             <div class="overlay__cards"></div>
           </div>
         </div>
@@ -108,9 +110,9 @@
       </address>
 
       <ul class="footer__menu">
-        <li><a>главная</a></li>
-        <li><a>посмотреть лоты</a></li>
-        <li><a>об аукционе</a></li>
+        <li><a class="footer_active_button" href="#">главная</a></li>
+        <li><a href="#">посмотреть лоты</a></li>
+        <li><a href="#">об аукционе</a></li>
       </ul>
 
       <div class="footer__social-links">
