@@ -23,10 +23,10 @@
 
 .links-list {
   display: flex;
+  flex-direction: row;
+  justify-content: center;
   gap: 30px;
   align-self: center;
-  justify-content: center;
-  flex-direction: row;
   letter-spacing: 0.3px;
   list-style: circle;
   white-space: nowrap;
@@ -38,7 +38,7 @@
     text-decoration: underline;
   }
 }
-.active_button {
+.active_link {
   list-style: none;
 }
 
@@ -55,9 +55,9 @@
   justify-self: end;
   align-self: center;
   max-width: 240px;
-  line-height: 24px;
-  font-style: normal;
   font-size: 18px;
+  font-style: normal;
+  line-height: 24px;
 }
 
 .cover {
@@ -102,6 +102,8 @@
   flex-direction: column;
   gap:20px;
   width: 100%;
+  font-size: 100px;
+  line-height: 115%;
 }
 
 .alinght-text {
@@ -163,11 +165,11 @@
   border: 1px solid #fff;
   padding: 12px 32px;
   color: #fff;
+  font-family: inherit;
   font-weight: 500;
   font-size: 22px;
   text-transform: uppercase;
   background-color: transparent;
-  font-family: inherit;
 }
 
 .lots {
@@ -186,20 +188,10 @@
 
 .lots__cards {
   display: flex;
-  flex-wrap: wrap;
   flex-direction: row;
+  flex-wrap: wrap;
   gap: 25px;
   margin-top: 26px;
-}
-
-.overlay__cards {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: -1;
-  background: rgba(0, 0, 0, 0.5);
 }
 
 .lots__cards__item {
@@ -234,6 +226,7 @@
 }
 
 .lots__cards__item-title {
+  z-index: 1;
   color: #fff;
   font-weight: 700;
   font-size: 22px;
@@ -245,6 +238,7 @@
 
 .lots__cards__item-description {
   position: relative;
+  z-index: 1;
   color: #fff;
   font-weight: 400;
   font-size: 20px;
@@ -298,8 +292,8 @@
   row-gap: 24px;
   font-weight: 400;
   font-size: 20px;
-  letter-spacing: 0.01em;
   line-height: 120%;
+  letter-spacing: 0.01em;
 
 }
 
@@ -331,19 +325,8 @@
   margin: 180px 50px 80px 50px;
 }
 
-.footer_active_button {
+.footer_active_link {
   text-decoration: none;
-}
-
-.footer__address {
-  display: flex;
-  flex-direction: column;
-  justify-self: end;
-  align-self: end;
-  max-width: 240px;
-  font-size: 18px;
-  line-height: 135%;
-  font-style: normal;
 }
 
 .footer__menu {
