@@ -5,7 +5,6 @@
   grid-template-columns: 1fr 144px 1fr;
   margin-top: 92px;
   padding: 0px 50px;
-
   font-weight: 400;
   font-size: 18px;
 }
@@ -14,7 +13,7 @@
   flex-grow: 1;
   width: 100vw;
   max-width: 1100px;
-  font-family: 'Raleway' serif;
+  font-family: 'Raleway', serif;
 }
 
 .menu {
@@ -38,7 +37,7 @@
     text-decoration: underline;
   }
 }
-.active_link {
+.header__link_active {
   list-style: none;
 }
 
@@ -67,14 +66,9 @@
   justify-content: space-between;
   width: 100%;
   min-height: 757px;
-
   margin-top: 92px; 
-
   padding: 165px 50px 12px 50px;
-  object-fit: cover;
-
   color: #fff;
-
   font-weight: 700;
   font-size: 100px;
   line-height: 115%;
@@ -163,7 +157,7 @@
   width: 256px;
   min-height: 51px;
   border: 1px solid #fff;
-  padding: 12px 32px;
+  padding: 12px 32px 11px 31px;
   color: #fff;
   font-family: inherit;
   font-weight: 500;
@@ -260,7 +254,6 @@
   grid-template-columns: 1fr 2fr;
   column-gap: 12px;
   max-width: 1100px;
-  height: 595px;
   margin: 148px 24px 0px 24px;
   
 }
@@ -268,7 +261,6 @@
 .about-logo {
 
   display: flex;
-
   width: 148px;
   height: 114px;
   object-fit: contain;
