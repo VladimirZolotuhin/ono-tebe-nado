@@ -191,7 +191,7 @@
   list-style: none;;
 }
 
-.lots_article{
+.lots_article {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
